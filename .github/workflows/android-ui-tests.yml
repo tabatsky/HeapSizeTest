@@ -70,8 +70,8 @@ jobs:
           api-level: 29
           profile: Nexus 6
           arch: x86
-          ram-size: 2048
-          heap-size: 512
+          ram-size: 2048M
+          heap-size: 512M
           force-avd-creation: false
           emulator-options: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
           disable-animations: false
@@ -104,7 +104,7 @@ jobs:
           api-level: 21
           profile: Nexus 6
           arch: x86_64
-          heap-size: 256
+          heap-size: 256M
           force-avd-creation: false
           emulator-options: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
           disable-animations: false
@@ -137,8 +137,8 @@ jobs:
           api-level: 21
           profile: Nexus 6
           arch: x86
-          ram-size: 2048
-          heap-size: 256
+          ram-size: 2048M
+          heap-size: 256M
           force-avd-creation: false
           emulator-options: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
           disable-animations: false
